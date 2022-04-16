@@ -151,8 +151,15 @@ $(document).ready(function(){
                 $("#cantidad-arboles").text((totalCo2/0.03).toFixed(0));
 
                 var min=0, max=15, p_termo=0;
-                p_termo=(totalCo2-min)/(max-min);
-                $(".img-line").css("bottom",p_termo*100+"%");
+                p_termo=((totalCo2-min)/(max-min))*100;
+                if(p_termo<8){
+                    p_termo=8;
+                }
+                else if(p_termo>95){
+                    p_termo=95;
+                }
+                $(".img-line").css("bottom",p_termo+"%");
+                
 
 
                 //mostrar la seccion de video y contacto
