@@ -22,6 +22,7 @@ body{
 #cont-principal{
     height: 100vh; 
     background-image: url(../img/bg-principal.jpg);
+    background-color: #005c00;
     background-size: cover;
 }
 @media(max-width:767px){
