@@ -21,7 +21,7 @@ body{
 }
 #cont-principal{
     height: 100vh; 
-    background-image: url(../img/bg-principal.jpg);
+    background-image: url(../img/bg-principal.webp);
     background-color: #005c00;
     background-size: cover;
 }
