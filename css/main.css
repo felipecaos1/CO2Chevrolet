@@ -60,7 +60,7 @@ body{
 }
 .animacion{
     padding: 50px 0;
-    height: 50vh!important;
+    height: 45vh!important;
 }
 @media(max-width:767px){
     #title-logo{
