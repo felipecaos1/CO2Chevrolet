@@ -19,7 +19,13 @@ $(document).ready(function(){
         $("#sliders").css("display","block");
 
     }),
-
+    //mostrar seccion video
+    $("#siguiente-paso").click(function(){
+        var posicion = $("#video").offset().top;
+        $("html, body").animate({
+        scrollTop: posicion
+    }, 1000); 
+    }),
 
     //funcion boton avanzar diapositiva
     $(".next").click(function(){
