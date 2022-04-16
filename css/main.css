@@ -415,14 +415,14 @@ background: linear-gradient(0deg, rgba(31,39,78,1) 92%, rgba(31,39,78,0.93601190
     #contacto .info-contacto{
         width: 95%;
     }
-    
+    .cont-rigth{
+        padding-left: 0!important;
+    }
 }
 .info-contacto p{
     color: #fff;
 }
-.cont-rigth{
-    padding-left: 50px!important;
-}
+
 #contacto .carbono-neutro{
     display: flex;
     justify-content: center;
