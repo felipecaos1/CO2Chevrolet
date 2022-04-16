@@ -125,7 +125,6 @@ body{
     .info-left{
         width: 100%!important;
         display: flex;
-        flex-direction:row;
         align-items: center;
         justify-content: center;
     }
@@ -166,7 +165,7 @@ body{
 }
 
 .title-logo{
-    font-size:2vw;
+    font-size:4vw;
 }
 .logo-slide{
  max-width: 100%;
@@ -180,10 +179,10 @@ body{
         font-size: 18px!important;
     }
     .title-logo{
-        font-size:4vw;
+        font-size:6vw;
     }
     .logo-slide{
-       max-width: 20%;
+       max-width: 35%;
     }
     .pregunta{
         margin: 10px 0!important;
