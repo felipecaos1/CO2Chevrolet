@@ -35,7 +35,6 @@ body{
     #nube{
         animation-duration: 50s!important;
         width: auto!important;
-        height: auto!important;
     }
     
 }
@@ -445,6 +444,9 @@ background: linear-gradient(0deg, rgba(31,39,78,1) 92%, rgba(31,39,78,0.93601190
     }
     .cont-rigth{
         padding-left: 0!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 .info-contacto p{
@@ -516,6 +518,10 @@ flex-direction: column;
     #form-contacto .btn-form{
         text-align: center;
         margin-bottom: 50px;
+     }
+     #contacto .carbono-neutro{
+        margin-bottom: 0!important;
+        padding-top: 0!important;
      }
 }
 
