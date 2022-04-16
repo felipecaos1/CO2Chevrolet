@@ -24,11 +24,16 @@ body{
     background-image: url(../img/bg-principal.webp);
     background-color: #003a00;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 @media(max-width:767px){
     #cont-principal{
         min-height: 100vh;
         background-position: 40%;
+    }
+    #nube{
+        animation-duration: 50s!important;
     }
     
 }
