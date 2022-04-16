@@ -38,6 +38,7 @@ body{
     position: absolute;
     opacity: .7;
     top: 0;
+    pointer-events: none;
     animation: nube 100s linear infinite;
 }
 @keyframes nube{
