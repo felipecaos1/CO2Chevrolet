@@ -32,6 +32,22 @@ body{
     }
     
 }
+#nube{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: .7;
+    top: 0;
+    animation: nube 100s linear infinite;
+}
+@keyframes nube{
+    from{
+        transform:translateX(-100%);
+    }
+    to{
+        transform:translateX(100%);
+    }
+}
 #cont-sub{
     max-width: 1000px;
 }
@@ -167,6 +183,7 @@ body{
 
 .title-logo{
     font-size:2.5vw;
+    text-align: center;
 }
 .logo-slide{
  max-width: 100%;
@@ -188,6 +205,9 @@ body{
     }
     .pregunta{
         margin: 10px 0!important;
+    }
+    #slide-5 .pregunta{
+        margin: 0!important;
     }
     
 }
