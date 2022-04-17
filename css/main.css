@@ -536,9 +536,9 @@ width: 50%;
     
 }
 @media(max-width:767px){
-    #form-contacto .btn-form{
+    .btn-form{
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
      }
      #contacto .carbono-neutro{
         margin-bottom: 0!important;
