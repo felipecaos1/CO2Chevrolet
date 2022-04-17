@@ -418,19 +418,19 @@ input[type="radio"]{
 }
 @media(max-width:767px){
     #video video{
-       
         left: -100%;
     }
 }
 
 
 #contacto{
-    display: none;
+    /* display: none; */
     min-height: 60vh;
     background: rgb(31,39,78);
-background: linear-gradient(0deg, rgba(31,39,78,1) 92%, rgba(31,39,78,0.9360119047619048) 97%, rgba(31,39,78,0.8631827731092436) 100%);
+    background: linear-gradient(0deg, rgba(31,39,78,1) 92%, rgba(31,39,78,0.9360119047619048) 97%, rgba(31,39,78,0.8631827731092436) 100%);
 }
 #contacto .info-contacto{
+    display: flex;
     font-family:LouisCodensed;
     letter-spacing: 1px;
     text-transform:uppercase ;
@@ -438,56 +438,85 @@ background: linear-gradient(0deg, rgba(31,39,78,1) 92%, rgba(31,39,78,0.93601190
     margin: auto!important;
     padding: 50px 0 50px 0;
 }
-@media (max-width:767px) {
-    #contacto .info-contacto{
-        width: 95%;
-    }
-    .cont-rigth{
-        padding-left: 0!important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.cont-left{
+    width: 50%;
+}
+.cont-rigth{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .info-contacto p{
     color: #fff;
 }
+.info-contacto .p1{
+    text-transform: none;
+    font-family: LouisR;
+}
 
 #contacto .carbono-neutro{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     margin-bottom: 50px;
     padding-top: 20px;
 
 }
+#contacto .iniciativa{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 #contacto .carbono-neutro img{
-    max-width: 50%;
+    max-width: 65%;
 }
 #contacto .iniciativa h5{
     color: #fff;
-    margin-bottom: 10px;
-    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 15px;
 }
 #contacto .patrocinadores{
 width: 50%;
-margin: auto;
 }
 #contacto .patrocinadores img{
     max-width: 100%;
 }
 .chevrolet{
     display: flex;
-flex-direction: column;
-    padding: 10px;
+    flex-direction: column;
 }
 .chevrolet img{
     border: solid #fff;
     border-width: 0 0 0 1px;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+@media (max-width:767px) {
+    #contacto .info-contacto{
+        width: 95%;
+        flex-direction: column;
+    }
+    .cont-rigth{
+        width: 100%;
+        flex-direction: row;
+    }
+    .cont-left{
+        width: 100%
+    }
+    #contacto .carbono-neutro{
+        width: 50%;
+        justify-content:center!important;
+    }
+    #contacto .iniciativa{
+        width: 50%;
+        justify-content:center!important;
+    }
+    #contacto .patrocinadores{
+        width: 100%!important;
+    }
 }
 
-
+/*FORMULARIO*/
 #form-contacto .form-item{
     margin: 15px 0;
     border: solid  #C6D900;
@@ -524,24 +553,6 @@ flex-direction: column;
         padding-top: 0!important;
      }
 }
-
-#cont-secundario .carbono-neutro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-
-#cont-secundario .renting{
-    border: solid rgba(255, 255, 255, 0.801);
-    border-width: 0 1px 0 0;
-}
-
-
-
-
 
 
 
