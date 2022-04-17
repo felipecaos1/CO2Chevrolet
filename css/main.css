@@ -490,6 +490,7 @@ width: 50%;
     .cont-rigth{
         width: 100%;
         flex-direction: row;
+        margin-top: 20px;
     }
     .cont-left{
         width: 100%
@@ -522,10 +523,10 @@ width: 50%;
     outline: none;
     color: #fff;
 }
-#form-contacto .btn-form{
+.btn-form{
    text-align: end;
 }
-#form-contacto .btn-form button{
+ .btn-form button{
     background-color:#fff;
     border: none;
     padding: 5px 30px;
@@ -545,6 +546,16 @@ width: 50%;
      }
 }
 
+/*MENSAJE*/
+
+.mensaje{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #C6D900;
+    border-radius: 5px;
+    padding: 20px;
+}
 
 
 

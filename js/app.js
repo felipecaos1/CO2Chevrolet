@@ -266,3 +266,9 @@ if("vuelos-nacionales"==question){
 //calculo 
 return consumo;
 }
+
+function enviar(){
+    $("#form-contacto").hide();
+    $("#btn-enviar").hide();
+    $(".mensaje").css("display","flex");
+}

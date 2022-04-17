@@ -816,7 +816,7 @@
                 </p>
               </div>
               <div>
-                <form id="form-contacto" action="">
+                <form id="form-contacto" method="POST">
                   <div class="form-item">
                     <label for="nombre">NOMBRE:</label>
                     <input type="text" name="nombre" id="" />
@@ -833,10 +833,14 @@
                     <label for="nombre">EDAD:</label>
                     <input type="number" min="0" name="edad" id="" />
                   </div>
-                  <div class="btn-form">
-                      <button>ENVIAR</button>
-                  </div>
+                 
                 </form>
+                <div class="btn-form" id="btn-enviar"> 
+                  <button onclick="enviar()">ENVIAR</button>
+              </div>
+              </div>
+              <div class="mensaje">
+                <p>Tu datos se han enviado correctamente, pronto nos pondremos en contacto para darte indicaciones sobre la travesía carbono cero</p>
               </div>
             </div>
             <div class="cont-rigth">
