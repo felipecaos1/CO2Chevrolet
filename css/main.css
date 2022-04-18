@@ -518,6 +518,7 @@ width: 50%;
     color: #fff;
 }
 #form-contacto input{
+    width: 70%;
     border: none;
     background-color: transparent;
     outline: none;

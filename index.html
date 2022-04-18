@@ -296,12 +296,17 @@
                 <div class="row respuestas">
                   <div class="col">
                     <div>
-                      <label
-                        ><input type="number" 
-                        disabled="disabled"
-                        name="n-acompañantes" id="n-acompañantes" min="0"
-                        value="0"
-                      /></label>
+                      <label>
+                        <select name="n-acompañantes" disabled="disabled" id="n-acompañantes">
+                          <option selected value="0">Seleccione</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                      </select>
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -388,7 +393,7 @@
                         <label
                       
                           >$ <input type="number" name="dinero-gasolina" id="dinero-gasolina" min="0"
-                          value="0"
+                          value="0" placeholder="0"
                         /></label>
                       </div>
                     </div>
@@ -822,15 +827,15 @@
                     <input type="text" name="nombre" id="" />
                   </div>
                   <div class="form-item">
-                    <label for="nombre">TELÉFONO:</label>
+                    <label for="telefono">TELÉFONO:</label>
                     <input type="text" name="telefono" id="" />
                   </div>
                   <div class="form-item">
-                    <label for="nombre">CORREO:</label>
+                    <label for="correo">CORREO:</label>
                     <input type="email" name="correo" id="" />
                   </div>
                   <div class="form-item">
-                    <label for="nombre">EDAD:</label>
+                    <label for="edad">EDAD:</label>
                     <input type="number" min="0" name="edad" id="" />
                   </div>
                  

@@ -95,8 +95,8 @@ $(document).ready(function(){
         }
         //pregunta gasolina
         if(current_step==5){
-            if(0 == $("[name='combustible']:checked").length||0==$("#dinero-gasolina").val()){
-                alert("Debe marcar o selecionar una opción");
+            if(0 == $("[name='combustible']:checked").length||0>=$("#dinero-gasolina").val()){
+                alert("Debe selecionar una opción o ingresar un valor correcto");
             }
             else{
                 sessionStorage.setItem("total-movilidad",calcular(what_question));
@@ -131,7 +131,7 @@ $(document).ready(function(){
         //pregunta proteina
         if(current_step==8){
             if(0 == $("[name='res']:checked").length||0 == $("[name='pollo']:checked").length||0 == $("[name='cerdo']:checked").length||0 == $("[name='pescado']:checked").length){
-                alert("Debe selecionar al menos una opción en cada grupo");
+                alert("Debe selecionar una opción en cada grupo");
             }
             else{
                 sessionStorage.setItem("total-proteina",calcular(what_question));
@@ -242,7 +242,7 @@ if("question-movilidad"===question){
     var dinero=parseInt($("#dinero-gasolina").val());
     var n_acompañantes=parseInt($("#n-acompañantes").val())
     var moto_o_carro=$("[name='medio-transporte']:checked").val();
-
+console.log(n_acompañantes);
     if(moto_o_carro=="moto"){
         consumo=((dinero/combustibles[2].costo)*combustibles[2].f_moto*12)/(n_acompañantes+1);
     }
