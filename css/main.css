@@ -459,10 +459,7 @@ input[type="radio"]{
 .info-contacto p{
     color: #fff;
 }
-.info-contacto .p1{
-    text-transform: none;
-    font-family: LouisR;
-}
+
 
 #contacto .carbono-neutro{
     display: flex;
