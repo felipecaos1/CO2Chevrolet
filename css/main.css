@@ -285,7 +285,7 @@ input[type="radio"]{
     background-color:rgb(211, 216, 70,0.6);
 }
 
-#personas-hogar{
+#personas-hogar,#n-acompañantes{
     padding: 5px;
     border: none;
     border-radius: 5px;
