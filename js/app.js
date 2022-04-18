@@ -154,7 +154,7 @@ $(document).ready(function(){
                 //paso a toneladas
                 totalCo2=(totalCo2/1000);
                 $("#cantidad-co2").text(totalCo2.toFixed(2));
-                $("#cantidad-arboles").text((totalCo2/0.03).toFixed(0));
+                $("#cantidad-arboles").text((totalCo2*5.98).toFixed(0));
 
                 var min=0, max=15, p_termo=0;
                 p_termo=((totalCo2-min)/(max-min))*100;
